@@ -1,0 +1,8 @@
+[user]
+  name = Texas Toland
+  email = texastoland@gmail.com
+[core]
+  autocrlf = input
+  pager = diff-so-fancy | "$PAGER"
+[alias]
+  cleanup = !git gc --prune=now && git remote prune origin

@@ -1,0 +1,4 @@
+*.git
+*cache
+Library
+node_modules

@@ -1,1 +1,11 @@
+# no subdirs
 /*/
+# except user config
+!/.config/
+.CFUserTextEncoding
+.yarnrc
+# git add -f .zshrc
+.z*
+configstore
+node_modules
+yarn.lock

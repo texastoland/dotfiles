@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "emma-cli": "^2.1.0"
+  }
+}
