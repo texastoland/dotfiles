@@ -1,0 +1,15 @@
+#! /bin/bash
+# alias: brew tree
+#:  * `tree` [args...]
+#:    `brew tree` is an alias for `brew deps $(brew leaves) --tree --installed --formula`
+brew deps $(brew leaves --installed-on-request) --tree --installed --formula $* | grep "\S"
+
+orphans=$(brew orphans | sed 's/^/- /')
+[[ -z $orphans ]] && exit 0
+cat << END
+
+Orphans:
+$orphans
+Remove all with: brew autoremove
+END
+exit 1

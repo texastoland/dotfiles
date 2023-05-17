@@ -1,0 +1,39 @@
+[user]
+name = Texas Toland
+email = texastoland@gmail.com
+
+[fetch]
+prune = true
+
+[merge]
+tool = code
+
+[mergetool "code"]
+cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+
+[diff]
+tool = code
+
+[difftool "code"]
+cmd = code --wait --diff $LOCAL $REMOTE
+
+[core]
+autocrlf = input
+
+# [https://dandavison.github.io/delta/get-started.html]
+pager = git delta
+
+[interactive]
+diffFilter = git delta --color-only
+
+[alias]
+delta = !delta $(defaults read -g AppleInterfaceStyle &>/dev/null || echo --light)
+
+[delta]
+navigate = true
+
+[merge]
+conflictstyle = diff3
+
+[diff]
+colorMoved = default

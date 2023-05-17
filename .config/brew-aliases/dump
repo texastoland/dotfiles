@@ -1,0 +1,10 @@
+#! /bin/bash
+# alias: brew dump
+#:  * `dump` [args...]
+#:    `brew dump` is an alias for `brew bundle dump --global --describe --force`
+brew bundle dump --global --describe --force $*
+
+sed -i '' -e "1 i\\
+## brew tree\\
+$(brew tree | sed 's/.*/# &\\/')
+##" ~/.Brewfile

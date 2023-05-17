@@ -1,0 +1,5 @@
+#! /bin/bash
+# alias: brew orphans
+#:  * `orphans` [args...]
+#:    `brew orphans` is an alias for `brew leaves --installed-as-dependency`
+brew leaves --installed-as-dependency $*

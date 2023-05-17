@@ -1,0 +1,6 @@
+[tools]
+node = "latest"
+bun = "latest"
+ocaml = "latest"
+# for Shopify CLI
+ruby = "3.1"

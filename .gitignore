@@ -1,0 +1,16 @@
+# top-level dirs
+/*/
+# KEEP
+!/.config/
+
+# generated dirs
+logs/
+/.config/crossnote/
+/.config/raycast/extensions/
+
+# generated files
+.*hist*
+/.config/lazygit/state.yml
+/.config/broot/*
+# KEEP
+!/.config/broot/conf.hjson
