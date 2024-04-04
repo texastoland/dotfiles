@@ -1,0 +1,20 @@
+# generated files
+*.log
+.*h*st*
+history*
+
+# top-level dirs
+/*/
+# except
+!/.config
+!/script
+
+# generated dirs
+/.config/crossnote
+/.config/micro/plug/*/
+/.config/nushell/plugin.nu
+/.config/raycast
+
+# zed-industries/zed#7155
+/.config/zed/*
+!/.config/zed/*.json

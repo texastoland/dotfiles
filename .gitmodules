@@ -1,0 +1,10 @@
+[submodule "Developer/micro-filemanager-plugin"]
+	path = Developer/micro-filemanager-plugin
+	url = https://github.com/jakkunight/filemanager-plugin.git
+[submodule "Developer/micro-palettero"]
+	path = Developer/micro-palettero
+	url = https://github.com/octoshrimpy/palettero.git
+	branch = patch-2
+[submodule "Developer/nupm"]
+	path = Developer/nupm
+	url = https://github.com/nushell/nupm.git

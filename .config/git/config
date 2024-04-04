@@ -1,0 +1,33 @@
+[user]
+name = Texas Toland
+email = texastoland@gmail.com
+
+[alias]
+# https://github.com/dandavison/delta/issues/447#issuecomment-1550532267
+delta = !delta $(defaults read -g AppleInterfaceStyle 2>&1 | grep 'does not exist' > /dev/null && echo --light)
+
+[fetch]
+prune = true
+
+[rebase]
+updateRefs = true
+
+[core]
+autocrlf = input
+
+# begin https://dandavison.github.io/delta/get-started.html
+pager = git delta
+
+[interactive]
+diffFilter = git delta --color-only
+
+[delta]
+navigate = true
+side-by-side = true
+line-numbers-right-format = "│ "
+
+[merge]
+conflictstyle = diff3
+
+[diff]
+colorMoved = default
