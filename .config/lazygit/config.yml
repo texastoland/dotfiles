@@ -1,0 +1,14 @@
+gui:
+  sidePanelWidth: 0.2
+  expandFocusedSidePanel: true
+  enlargedSideViewLocation: top
+  nerdFontsVersion: "3"
+git:
+  paging:
+    colorArg: always
+    pager: git delta --paging never
+  parseEmoji: true
+os:
+  editPreset: micro
+quitOnTopLevelReturn: true
+notARepository: skip

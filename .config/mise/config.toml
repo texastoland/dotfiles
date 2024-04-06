@@ -1,0 +1,6 @@
+[tools]
+node = "latest"
+"npm:@bitwarden/cli" = "latest" # for Raycast extension
+
+[settings]
+experimental = true
