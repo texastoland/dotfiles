@@ -1,0 +1,22 @@
+[
+  {
+    "bindings": {
+      "ctrl-shift-:": "editor::ToggleInlayHints",
+      "cmd-q cmd-q": "zed::Quit",
+      "cmd-q": null,
+      "cmd-shift-x": [
+        "workspace::SendKeystrokes",
+        "cmd-shift-p extensions enter"
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-c": [
+        "workspace::SendKeystrokes",
+        "cmd-left alt-right alt-right delete x"
+      ]
+    }
+  }
+]

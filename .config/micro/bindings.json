@@ -1,0 +1,7 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "AltCtrlSpace": "command:palettero",
+    "CtrlSpace": "command:palettero",
+    "CtrlUnderscore": "lua:comment.comment",
+    "F4": "command:jumptag"
+}

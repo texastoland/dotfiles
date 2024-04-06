@@ -1,0 +1,21 @@
+{
+  "theme": {
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+  "features": { "copilot": false },
+  "buffer_font_family": "Maple Mono",
+  "wrap_guides": [80, 100],
+  "inlay_hints": { "enabled": true },
+  "autosave": "on_focus_change",
+  "soft_wrap": "editor_width",
+  "tab_size": 2,
+  "journal": {
+    "path": "~/.local/share",
+    "hour_format": "hour24"
+  },
+  "terminal": {
+    "option_as_meta": true,
+    "font_family": "CaskaydiaCove Nerd Font"
+  }
+}
