@@ -1,0 +1,5 @@
+#! /bin/bash
+# alias: brew prune
+#:  * `prune` [args...]
+#:    `brew prune` is an alias for `brew cleanup --prune all -s`
+brew cleanup --prune all -s $*
