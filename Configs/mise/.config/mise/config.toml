@@ -1,0 +1,4 @@
+[tools]
+"cargo:https://github.com/microsoft/edit" = { version = "latest", crate = "edit" }
+"cargo:tuckr" = "latest"
+rust = "nightly"

@@ -1,0 +1,10 @@
+semi = false
+arrowParens = "avoid"
+objectWrap = "collapse"
+
+# [Markdown]
+proseWrap = "always"
+
+# [experimental]
+experimentalTernaries = true
+experimentalOperatorPosition = "start"

@@ -1,0 +1,19 @@
+providers:
+  - id: lmstudio
+    name: LM Studio
+    base_url: http://localhost:1234/v1
+    models:
+      - id: qwen/qwen3-30b-a3b-2507
+        name: Qwen3 30B A3B 2507
+        context: 262144
+        abilities:
+          temperature:
+            supported: true
+          vision:
+            supported: false
+          system_message:
+            supported: true
+          tools:
+            supported: true
+          reasoning_effort:
+            supported: false
