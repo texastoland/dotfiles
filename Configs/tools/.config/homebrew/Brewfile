@@ -1,0 +1,35 @@
+# GitHub command-line tool
+brew "gh"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
+# Nice to use pager for humans
+brew "moor"
+# Missing menulet for Homebrew
+cask "brewlet"
+# Node-based image, video and audio generator
+cask "comfyui"
+# Audio and video editor
+cask "descript"
+cask "font-maple-mono-nf"
+# Git client for simultaneous branches on top of your existing workflow
+cask "gitbutler"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
+# Utility that shows the latest app updates
+cask "latest"
+# Discover, download, and run local LLMs
+cask "lm-studio"
+# Screen and video recording software
+cask "loom"
+# Music app blocker utility
+cask "music-decoy"
+# Replacement for Docker Desktop
+cask "orbstack"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Collection of apps available by subscription
+cask "setapp"
+# Tool to simulate responsive designs on multiple devices
+cask "sizzy"
+# Rust-based terminal
+cask "warp"
