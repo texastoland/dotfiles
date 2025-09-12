@@ -4,13 +4,7 @@ export MOOR='--no-linenumbers --reformat'
 export LESSHISTFILE=-
 
 alias path='print -l $path'
-
-tuckr_adopt() {
-  local group=$1
-  shift
-  tuckr push $group $@
-  tuckr add $group --force -y
-}
+alias brewfile='brew bundle dump --global --describe --force'
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/texas/.lmstudio/bin"
