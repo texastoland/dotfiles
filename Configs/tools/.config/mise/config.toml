@@ -1,4 +1,4 @@
 [tools]
-"cargo:https://github.com/microsoft/edit" = { version = "latest", crate = "edit" }
-"cargo:https://github.com/RaphGL/Tuckr" = { version = "latest" }
-rust = "nightly"
+"cargo:https://github.com/microsoft/edit" = { version = "tag:v1.2.1", crate = "edit" }
+"cargo:tuckr" = "latest"
+rust = "latest"
