@@ -1,4 +1,14 @@
 [tools]
-"cargo:https://github.com/microsoft/edit" = { version = "tag:v1.2.1", crate = "edit" }
-"cargo:tuckr" = "latest"
 rust = "latest"
+# "cargo:tuckr" = "latest"
+"cargo:https://github.com/RaphGL/Tuckr" = "rev:83716ba"
+node = "latest"
+pnpm = "latest"
+"npm:oxfmt" = "latest"
+"npm:oxlint" = "latest"
+"npm:@typescript/native-preview" = "latest"
+
+[settings]
+
+[settings.npm]
+package_manager = "pnpm"

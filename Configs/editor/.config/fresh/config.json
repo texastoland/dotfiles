@@ -1,0 +1,19 @@
+{
+  "theme": "mocha",
+  "active_keybinding_map": "macos",
+  "editor": {
+    "rulers": [
+      100
+    ],
+    "ensure_final_newline_on_save": true,
+    "tab_size": 2,
+    "trim_trailing_whitespace_on_save": true
+  },
+  "file_explorer": {
+    "show_gitignored": true,
+    "show_hidden": true
+  },
+  "file_browser": {
+    "show_hidden": true
+  }
+}

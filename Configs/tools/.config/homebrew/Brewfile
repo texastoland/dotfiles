@@ -1,35 +1,47 @@
+# Text editor for your terminal: easy, powerful and fast
+brew "fresh-editor"
 # GitHub command-line tool
 brew "gh"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
 # Nice to use pager for humans
 brew "moor"
+# AI Coding Agent IDE
+cask "antigravity"
 # Missing menulet for Homebrew
 cask "brewlet"
 # Node-based image, video and audio generator
 cask "comfyui"
 # Audio and video editor
 cask "descript"
+# UI to create reproducible developer environments based on a devcontainer.json
+cask "devpod"
 cask "font-maple-mono-nf"
-# Git client for simultaneous branches on top of your existing workflow
-cask "gitbutler"
-# JetBrains tools manager
-cask "jetbrains-toolbox"
+# Web browser
+cask "google-chrome"
 # Utility that shows the latest app updates
 cask "latest"
 # Discover, download, and run local LLMs
 cask "lm-studio"
+# Software for Logitech devices
+cask "logi-options+"
 # Screen and video recording software
 cask "loom"
 # Music app blocker utility
 cask "music-decoy"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Replacement for Docker Desktop
 cask "orbstack"
+# Desktop virtualization software
+cask "parallels"
+# Browser for ambitious developers
+cask "polypane"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Collection of apps available by subscription
 cask "setapp"
-# Tool to simulate responsive designs on multiple devices
-cask "sizzy"
 # Rust-based terminal
 cask "warp"
+# Multiplayer code editor
+cask "zed"

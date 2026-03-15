@@ -1,11 +1,15 @@
-export EDITOR=edit
+export VISUAL=zed
+export EDITOR=fresh
 export PAGER=moor
 export MOOR='--no-linenumbers --reformat'
 export LESSHISTFILE=-
 
+export PATH; path=(
+  $path
+  ~/.lmstudio/bin
+  ~/.antigravity/antigravity/bin
+)
+
 alias path='print -l $path'
 alias brewfile='brew bundle dump --global --describe --force'
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/texas/.lmstudio/bin"
-# End of LM Studio CLI section
+alias dot-track='tuckr push --add --only-files'

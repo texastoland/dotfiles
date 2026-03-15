@@ -1,0 +1,13 @@
+{
+  "printWidth": 100,
+  "semi": false,
+  "arrowParens": "avoid",
+  "objectWrap": "collapse",
+
+  // [Markdown]
+  "proseWrap": "always",
+
+  // [extensions]
+  "ignorePatterns": [],
+  "sortPackageJson": true,
+}

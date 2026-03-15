@@ -1,3 +1,4 @@
+printWidth = 100
 semi = false
 arrowParens = "avoid"
 objectWrap = "collapse"
