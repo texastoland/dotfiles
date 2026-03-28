@@ -14,3 +14,4 @@
 # @raycast.authorURL https://raycast.com/texastoland
 
 mise upgrade --bump
+mise prune --yes
